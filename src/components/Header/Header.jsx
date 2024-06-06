@@ -14,7 +14,7 @@ function Header (){
                     <li>Quem somos</li>
                     <li>Especialidades</li>
                     <li>Unidades</li>
-                    <button type="submit">CADASTRE-SE</button>
+                    <S.buttonCad type="submit">CADASTRE-SE</S.buttonCad>
                 </S.Ul>
             </S.Nav>
 

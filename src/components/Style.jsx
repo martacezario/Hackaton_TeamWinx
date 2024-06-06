@@ -16,7 +16,6 @@ export const Header = styled.header`
 export const Nav = styled.nav`
   width: 100vw;
   height: 50vh;
-  
 `;
 
 export const Ul = styled.ul`
@@ -27,6 +26,7 @@ export const Ul = styled.ul`
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
+
 `;
 
 export const Div1 = styled.div`
@@ -38,11 +38,26 @@ export const Div1 = styled.div`
   
 
 `
+
+export const buttonCad = styled.button`
+
+height: 5vh;
+width: 10vw;
+border-radius:10px;
+background-color: #070c71;
+color: white;
+font-family: 'Roboto', sans-serif;
+cursor: pointer;
+
+
+
+
+`
 // estilização da main
 
 export const H1 = styled.h1`
   font-family: 'Roboto', sans-serif;
-  font-size: 2.5em;
+  font-size: 50px;
 `
 export const H2 = styled.h2`
  font-family: 'Roboto', sans-serif;
@@ -51,19 +66,33 @@ export const H2 = styled.h2`
 
   
 `
+export const ContainerSectionMain = styled.div`
+display: flex;
+// flex-direction:column;
+justify-content:space-around;
+ align-items: center;
+ border:solid black 3px;
+
+
+`
 export const SectionMain = styled.section`
  display: flex;
+ width:50%;
+ height:70vh;
+ flex-direction: column;
+ align-items: center;
+ justify-content:space-around;
 
+
+ /*
+ Responsive
  
- 
- 
- 
- 
- /*display: flex;
+ display: flex;
   flex-direction: column;
   align-items: center;
   border: 1px solid red;
-  padding-top: 5rem;*/
+  padding-top: 5rem; 
+  */ 
   
   
   p{
@@ -71,9 +100,25 @@ export const SectionMain = styled.section`
    font-size:1.3em;
    font-family: 'Roboto', sans-serif;
    padding-top: 2rem;
+     height:40vh;
+     font-size:30px;
   }
 
+  h2 {
+   border-bottom: 3px solid;
+   border-image: linear-gradient(90deg, #070c71,  #68d4e3) 1;
+   padding-bottom: 20px;
+   font-size: 50px;
+   font-weight:35;
+   
+}
+
 `
+export const DivGrid = styled.div`
+ display: flex;
+ padding-top:4rem;
+`
+
 // estilização botões da Main 
 
 export const ButtonAgOnline = styled.button`
@@ -105,13 +150,8 @@ cursor: pointer;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {
-    transform: scale(1.05); /* Aumenta ligeiramente o tamanho do botão */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra ao passar o mouse */
+    transform: scale(1.05); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
   }
   
-`
-
-export const DivGrid = styled.div`
- display: flex;
- justify-content: end;
 `

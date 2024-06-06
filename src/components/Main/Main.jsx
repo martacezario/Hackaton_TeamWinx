@@ -20,11 +20,12 @@ function Main() {
         <img src={FotoHomem} alt="foto homem negro sorrindo de camisa branca" />
       </S.Div1>
 
+       <S.ContainerSectionMain>
       <S.SectionMain>
 
         <S.H2>Nós acreditamos em um você mais saudável.</S.H2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel urna dictum, finibus erat ut, pharetra massa. 
-            Sed vel risus malesuada, hendrerit velit ut, cursus lectus.</p>
+        <p>
+        Na jornada da vida, cada fase tem suas próprias alegrias, desafios e necessidades de saúde, desde a pediatria, focando no crescimento saudável das crianças, até a maternidade, com suporte do pré-natal ao pós-parto, e o cuidado aos idosos, visando manter sua independência e qualidade de vida. Em todas as etapas, estamos comprometidos em oferecer cuidados de saúde compassivos e de alta qualidade para você e sua família.</p>
 
           
       </S.SectionMain>
@@ -33,6 +34,8 @@ function Main() {
 
 
             </S.DivGrid>
+
+            </S.ContainerSectionMain>
      
 
 

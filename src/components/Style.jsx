@@ -48,17 +48,29 @@ export const H2 = styled.h2`
  font-family: 'Roboto', sans-serif;
  font-size: 2.2 em;
 
+
   
 `
 export const SectionMain = styled.section`
-  display: flex;
+ display: flex;
+
+ 
+ 
+ 
+ 
+ 
+ /*display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid red;
+  padding-top: 5rem;*/
+  
   
   p{
 
    font-size:1.3em;
    font-family: 'Roboto', sans-serif;
+   padding-top: 2rem;
   }
 
 `
@@ -73,7 +85,7 @@ color: white;
 font-size: 1.3em;
 cursor: pointer;
 border: 2px solid transparent;
-  transition: border 0.3s ease;
+transition: border 0.3s ease;
 
   &:hover {
     border: 2px solid greenyellow; /* Borda azul ao passar o mouse */
@@ -97,4 +109,9 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra ao passar o mouse */
   }
   
+`
+
+export const DivGrid = styled.div`
+ display: flex;
+ justify-content: end;
 `

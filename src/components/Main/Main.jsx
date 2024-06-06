@@ -26,13 +26,13 @@ function Main() {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel urna dictum, finibus erat ut, pharetra massa. 
             Sed vel risus malesuada, hendrerit velit ut, cursus lectus.</p>
 
-            <div>
+          
+      </S.SectionMain>
+      <S.DivGrid>
                 <img src={fotosgrid} alt="" />
 
 
-            </div>
-      </S.SectionMain>
-
+            </S.DivGrid>
      
 
 

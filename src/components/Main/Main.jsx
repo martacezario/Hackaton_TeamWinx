@@ -8,7 +8,7 @@ import fotosgrid from "../../components/../assets/Grid.png"
 function Main() {
   return (
 
-    <main>
+    <S.Main>
         <S.H1>Cuidar da saúde das pessoas para melhorar o mundo.</S.H1>
 
         <S.Div1>
@@ -43,7 +43,7 @@ function Main() {
 
         </S.ContainerSectionMain>
      
-    </main>
+    </S.Main>
   );
 }
 

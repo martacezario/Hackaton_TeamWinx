@@ -11,20 +11,16 @@ function Header (){
     return(
 
         <S.Header>
+            <S.Img src={Logo} alt="logotipo saúde" />
             <S.Nav>
-                <img src={Logo} alt="logotipo saúde" />
                 <S.Ul>
 
                     <li>Quem somos</li>
                     <li>Especialidades</li>
                     <li>Unidades</li>
-                    <Button className={"buttonCad"} path={"/cadastro"} text="CADASTRE-SE" />
                 </S.Ul>
             </S.Nav>
-
-           
-
-           
+            <Button className={"buttonCad"} path={"/cadastro"} text="CADASTRE-SE" />
         </S.Header>
     )
 }

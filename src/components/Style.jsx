@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
-import Background from "../assets/bground1.png";
-
+import Background from "../assets/headerbackground.png";
+import BackgroundMain from "../assets/bground1.png";
 
 
 // Estilização Header
@@ -9,13 +9,28 @@ export const Header = styled.header`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  border: solid green;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 `;
+
+export const Img = styled.img `
+  width: 15vw;
+  height: 10vh;
+  border: solid red;
+`
 
 // Estilização da NAV
 
 export const Nav = styled.nav`
   width: 100vw;
-  height: 50vh;
+  height: 30vh;
+  border: solid blue;
+  
+  display: flex;
+  justify-content: space-evenly;
 `;
 
 export const Ul = styled.ul`
@@ -26,6 +41,8 @@ export const Ul = styled.ul`
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
+  border: solid red;
+  width: 100%;
 
 `;
 
@@ -54,6 +71,13 @@ cursor: pointer;
 `
 // estilização da main
 
+export const Main = styled.main`
+  background-image: url(${BackgroundMain});
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+`
+
 export const H1 = styled.h1`
   font-family: 'Roboto', sans-serif;
   font-size: 50px;
@@ -65,6 +89,9 @@ export const H2 = styled.h2`
 
   
 `
+
+
+
 export const ContainerSectionMain = styled.div`
 display: flex;
 // flex-direction:column;

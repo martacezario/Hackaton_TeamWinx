@@ -7,7 +7,7 @@ import Header from "./components/Header/Header";
 import Main from "./components/Main/Main.jsx";
 
 import LandingPage from "./components/Main/landingPage.jsx";
-import Cadastro from "./components/Main/cadastro.jsx";
+import Cadastro from "./components/Cadastro/cadastro.jsx";
 
 import MeusDados from "./components/Paciente/meusDados";
 import Historico from "./components/Paciente/historico";

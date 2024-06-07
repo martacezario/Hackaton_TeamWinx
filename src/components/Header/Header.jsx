@@ -1,7 +1,11 @@
 import React from "react";
-import Logo from "../Header/logo.png"
-import * as S from "../Header/../Style.jsx"
-import FotoHomem from "../../components/../assets/fotohomem.png"
+
+import Logo from "../Header/logo.png";
+import * as S from "../Header/../Style.jsx";
+import FotoHomem from "../../components/../assets/fotohomem.png";
+
+import Button from "../gerais/button";
+
 
 function Header (){
     return(
@@ -14,7 +18,7 @@ function Header (){
                     <li>Quem somos</li>
                     <li>Especialidades</li>
                     <li>Unidades</li>
-                    <S.buttonCad type="submit">CADASTRE-SE</S.buttonCad>
+                    <Button className={"buttonCad"} path={"/cadastro"} text="CADASTRE-SE" />
                 </S.Ul>
             </S.Nav>
 

@@ -1,0 +1,10 @@
+
+.buttonCad {    
+    height: 5vh;
+    width: 10vw;
+    border-radius:10px;
+    background-color: #070c71;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
